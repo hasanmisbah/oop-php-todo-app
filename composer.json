@@ -1,0 +1,20 @@
+{
+    "name": "hasanmisbah/php-todo",
+    "description": "todo app using OOP PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan Misbah",
+            "email": "hasanmisbah01@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers/helper.php"
+        ]
+    }
+}
